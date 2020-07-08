@@ -103,8 +103,7 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    bottom: 0px;
+    
 }
 
 footer a
@@ -126,14 +125,18 @@ footer p
     border-radius: 10px 10px 10px 10px;
     width: 20%;
     margin: auto;
-    color: #fdcb46;
     text-align: center;
-    text-decoration: none;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     box-shadow: 0;
     margin-top: 2%;
     font-size: 1.5em;
+}
+
+.btn a
+{
+ text-decoration: none;
+ color: #fdcb46;
 }
 /* MAIN */
 main
@@ -154,6 +157,10 @@ main
     box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
+.menu:hover
+{
+    transform: scale(1.1);
+}
 .menu--orange
 {
     background-color: #fcdfdb ;
