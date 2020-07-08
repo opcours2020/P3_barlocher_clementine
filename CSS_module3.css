@@ -1,0 +1,298 @@
+/* POLICES */
+
+    /* menu 1 */
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('polices/blackjack-webfont.eot');
+    src: url('polices/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/blackjack-webfont.woff2') format('woff2'),
+         url('polices/blackjack-webfont.woff') format('woff'),
+         url('polices/blackjack-webfont.ttf') format('truetype'),
+         url('polices/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+    /* menu 2 */
+@font-face {
+    font-family: 'redressedregular';
+    src: url('polices/redressed-webfont.woff2') format('woff2'),
+         url('polices/redressed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    /* menu 3 */
+
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('polices/dancingscript-regular-webfont.woff2') format('woff2'),
+         url('polices/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    /* menu 4 */
+
+@font-face {
+    font-family: 'courgetteregular';
+    src: url('polices/courgette-regular-webfont.woff2') format('woff2'),
+         url('polices/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    /* H3 menu 1, 3, 4 */
+
+@font-face {
+    font-family: 'handleeregular';
+    src: url('polices/handlee-regular-webfont.woff2') format('woff2'),
+         url('polices/handlee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* BODY */ 
+body 
+{ 
+    margin: auto;
+    font-family: arial, verdana, sans-serif;
+}
+
+
+/* HEADER */
+header
+{
+    background-color: #579c87;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #fdcb46;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header a
+{
+    text-decoration: none;
+    color: #fdcb46;
+}
+
+header h1
+{
+    letter-spacing: -4px;
+}
+
+
+/* FOOTER */
+footer
+{
+    background-color: #579c87;
+    color: #fdcb46;
+    font-size: 1em;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #fdcb46;
+}
+
+footer p
+{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+/* BOUTON */
+.btn
+{
+    background-color: #579c87;
+    border-radius: 10px 10px 10px 10px;
+    width: 20%;
+    margin: auto;
+    color: #fdcb46;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    box-shadow: 0;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+/* MAIN */
+main
+{
+    margin-top: 2%;
+}
+.conteneur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu
+{   
+    display: block;
+    width: 25%;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+.menu--orange
+{
+    background-color: #fcdfdb ;
+    min-height: 500px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.menu--pink
+{
+    background-color: #fff5fe ;
+    min-height: 500px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.menu--gray
+{
+    background-color: #f9f9f9 ;
+    min-height: 500px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.menu--white
+{
+    background-color: #fdfffd ;
+    min-height: 500px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/* MENU--ORANGE, MENU--PINK, MENU--GRAY, MENU--WHITE INDEX (position et décoration liens) */
+.menu--orange, .menu--pink, .menu--gray, .menu--white
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu--orange a, .menu--pink a, .menu--gray a, .menu--white a
+{
+    text-decoration: none;
+   
+}
+
+
+/* MENU--ORANGE, NOTE DE MUSIQUE DÉGRADÉE + POLICE, INDEX */
+.menu--orange i
+{
+    text-decoration: none;
+      font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f15861), to(#f78f6a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+
+
+.menu--orange h2
+{
+display: flex;
+flex-direction: column;
+color: #3c1218;
+    font-family: 'black_jackregular';
+    font-size: 1.6em;
+}
+
+.menu--orange h3
+{
+    font-family: 'handleeregular';
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+     color: #3c1218;
+}
+
+
+/* MENU--PINK, POLICE, DÉGRADÉ, INDEX */
+
+.menu--pink h2
+{
+    background: -webkit-gradient(linear, left top, left bottom, from(#d8852e), to(#905bfd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        font-family: 'redressedregular';
+        font-size: 1.7em;
+}
+
+.menu--pink h3
+{
+    color: #c77412;
+    font-family: 'Times New Roman';
+    font-size: 2.3em;
+}
+
+
+/* MENU--GRAY, POLICE ET COULEUR, INDEX */
+
+
+.menu--gray h2
+{
+   font-family: 'dancing_script_otregular';
+    font-size: 1.8em;
+      background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#349efc));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu--gray h3
+{
+  font-family: 'handleeregular';  
+    font-style: italic;
+    font-size: 2em;
+    color: #0887fb;
+}
+/* MENU--WHITE, POLICE ET COULEUR, INDEX */
+
+.menu--white h2 
+{
+    font-family: 'courgetteregular';
+    font-size: 1.8em;
+      background: -webkit-gradient(linear, left top, left bottom, from(#3d9339), to(#bfff7e));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu--white h3
+{
+    font-family: 'handleeregular';
+    font-style: italic;
+    font-size: 2em;
+    color: #72bf56;
+}
