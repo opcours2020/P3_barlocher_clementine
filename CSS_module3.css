@@ -138,6 +138,8 @@ footer p
  text-decoration: none;
  color: #fdcb46;
 }
+
+
 /* MAIN */
 main
 {
@@ -303,3 +305,393 @@ color: #3c1218;
     font-size: 2em;
     color: #72bf56;
 }
+
+
+
+
+
+
+
+
+/* MENU-1 */
+
+.note_enchantee_menu
+{
+    width: 80%;
+    background-color: #fcdfdb ;
+    color: #3c1218;
+    margin: auto;
+    font-family: 'handleeregular';
+    font-style: italic;
+    font-size: 1.1em;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+        /* titre */
+.note_enchantee_menu h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'black_jackregular';
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.note_enchantee_menu i
+{
+  background: -webkit-gradient(linear, left top, left bottom, from(#f15861), to(#f78f6a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+}
+
+        /* sous-titre */
+.note_enchantee_menu h3
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+        /* ul, li, p */
+
+.note_enchantee_menu ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10%;
+}
+
+.note_enchantee_menu li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+.note_enchantee_menu li p:nth-child(2)
+{
+    font-weight: bold;
+}
+
+        /* titre bas de page */
+
+.note_enchantee_menu h4
+{
+    font-family: 'black_jackregular';
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+
+.note_enchantee_menu h4 i
+{
+ font-size: 1.2em;   
+}
+
+
+
+
+/* MENU-2 */
+
+.le_chic_a_la_francaise
+{
+    font-family: 'Times New Roman';
+    width: 80%;
+    margin: auto;
+     padding-bottom: 10%;
+    background-color: #fff5fe ;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+    /* titre */
+.le_chic_a_la_francaise h2
+{
+    font-family: 'redressedregular';
+    font-size: 3em;
+     background: -webkit-gradient(linear, left top, left bottom, from(#d8852e), to(#905bfd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+    /* sous-titre */
+.le_chic_a_la_francaise h3
+{
+    text-align: center;
+}
+    /* ul, li, p */
+
+.le_chic_a_la_francaise ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10%;
+}
+
+.le_chic_a_la_francaise li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+/* MENU-3 */
+.le_delice_des_papilles
+{
+    font-family: 'handleeregular';
+    font-style: italic;
+    font-size: 1.1em;
+    width: 80%;
+    margin: auto;
+    background-color: #edefef ;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+/* titre */
+.le_delice_des_papilles h2
+{
+    font-family: 'dancing_script_otregular';
+    text-align: center;
+    font-size: 1.8em;
+      background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#349efc));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10%;
+}
+
+
+
+/* MENU 3 */
+.le_delice_des_papilles
+{
+    width: 80%;
+    background-color: #f9f9f9  ;
+    color: #000000;
+    margin: auto;
+    padding-bottom: 10%;
+    font-family: 'handleeregular';
+    font-style: italic;
+    font-size: 1.1em;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+/* ul, li */
+.le_delice_des_papilles ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10%;
+}
+
+.le_delice_des_papilles li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+.le_delice_des_papilles li p:nth-child(2)
+{
+    font-weight: bold;
+}
+
+/* sous-titre */
+.le_delice_des_papilles h3
+{
+   
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* titre */
+.le_delice_des_papilles h2
+{
+    
+    text-align: center;
+    font-family: 'dancing_script_otregular';
+    font-size: 3em;
+      background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#349efc));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+/* MENU 4 */
+.la_palette_du_gout
+{
+    width: 80%;
+    background-color: #fdfffd  ;
+    color: #000000;
+    margin: auto;
+    padding-bottom: 10%;
+    font-family: 'handleeregular';
+    font-style: italic;
+    font-size: 1.1em;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+/* ul, li */
+.la_palette_du_gout ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10%;
+}
+
+.la_palette_du_gout li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+
+/* sous-titre */
+.la_palette_du_gout h3
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+/* titre */
+.la_palette_du_gout h2
+{
+    
+    text-align: center;
+    font-size: 3em;
+   font-family: 'courgetteregular';
+      background: -webkit-gradient(linear, left top, left bottom, from(#3d9339), to(#bfff7e));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+/* MENTIONS LEGALES */
+
+.mentions_legales
+{
+     width: 80%;
+    background-color: #fff  ;
+    color: #000000;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    font-family: arial, verdana, sans-serif;
+    font-size: 1.1em;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+/* titre */
+
+.mentions_legales h2
+{
+    text-align: center;
+    letter-spacing: -4px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #579c87;
+    text-transform: lowercase;
+    font-size: 2.5em;
+}
+
+/* sous-titre */
+
+.mentions_legales h3
+{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*  p */
+
+.mentions_legales p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+/* PROCHAINEMENT */
+/* titre */
+.prochainement_h1
+{
+    color: #fdcb46;
+    text-align: center;
+}
+
+/* menus */
+.conteneur_prochainement
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_prochainement
+{
+    width: 40%;
+    margin: auto;
+    background-color: #579c87;;
+    color: #fdcb46;
+    font-family: arial, verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.menu_prochainement:hover
+{
+    transform: scale(1.1);
+}
+
