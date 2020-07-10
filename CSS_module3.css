@@ -163,6 +163,7 @@ main
 {
     transform: scale(1.1);
 }
+
 .menu--orange
 {
     background-color: #fcdfdb ;
@@ -313,7 +314,7 @@ color: #3c1218;
 
 
 
-/* MENU-1 */
+/* MENU-1 : LA PAGE DU MENU */
 
 .note_enchantee_menu
 {
@@ -327,6 +328,11 @@ color: #3c1218;
     box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
+/* images */
+.note_enchantee_menu img
+{
+    transform: scale(0.8);
+}
         /* titre */
 .note_enchantee_menu h2
 {
@@ -354,6 +360,11 @@ color: #3c1218;
     font-weight: bold;
     text-align: center;
     font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 
 
@@ -402,17 +413,52 @@ color: #3c1218;
 
 
 
-/* MENU-2 */
+/* MENU-2 : LA PAGE DU MENU */
 
 .le_chic_a_la_francaise
 {
     font-family: 'Times New Roman';
     width: 80%;
     margin: auto;
-     padding-bottom: 10%;
+     padding-bottom: 5%;
     background-color: #fff5fe ;
     box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
+
+    /* images */
+.le_chic_a_la_francaise .img1
+{
+    transform: scale(0.8);
+    position: relative;
+    top: 10px;
+}
+
+
+.le_chic_a_la_francaise .img2
+{
+    transform: scale(0.8);
+    position: relative;
+    top:  15px;
+}
+
+
+/* couleurs paragraphes */
+
+.couleur1
+{
+    color: #c57400;
+}
+
+.couleur2
+{
+    color: #a4679a;
+}
+
+.couleur3
+{
+    color: #6e4ccf;
+}
+
 
     /* titre */
 .le_chic_a_la_francaise h2
@@ -454,45 +500,29 @@ color: #3c1218;
 
 
 
-/* MENU-3 */
-.le_delice_des_papilles
-{
-    font-family: 'handleeregular';
-    font-style: italic;
-    font-size: 1.1em;
-    width: 80%;
-    margin: auto;
-    background-color: #edefef ;
-    box-shadow: 0px 1px 8px 1px #d8d8d8;
-}
 
-/* titre */
-.le_delice_des_papilles h2
-{
-    font-family: 'dancing_script_otregular';
-    text-align: center;
-    font-size: 1.8em;
-      background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#349efc));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: 10%;
-}
-
-
-
-/* MENU 3 */
+/* MENU 3 : LA PAGE DU MENU */
 .le_delice_des_papilles
 {
     width: 80%;
-    background-color: #f9f9f9  ;
+    background-color: #edefef  ;
     color: #000000;
     margin: auto;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-family: 'handleeregular';
     font-style: italic;
     font-size: 1.1em;
     box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
+
+/* images */
+.le_delice_des_papilles img
+{
+    transform: scale(0.8);
+    position: relative;
+    top: 10px;
+}
+
 
 /* ul, li */
 .le_delice_des_papilles ul
@@ -544,18 +574,24 @@ color: #3c1218;
 
 
 
-/* MENU 4 */
+/* MENU 4 : LA PAGE DU MENU */
 .la_palette_du_gout
 {
     width: 80%;
     background-color: #fdfffd  ;
     color: #000000;
     margin: auto;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-family: 'handleeregular';
     font-style: italic;
     font-size: 1.1em;
     box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
+
+/* images */
+.la_palette_du_gout img
+{
+    transform: scale(0.8);
 }
 
 /* ul, li */
@@ -585,6 +621,9 @@ color: #3c1218;
     text-align: center;
     font-weight: normal;
     font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* titre */
@@ -608,7 +647,7 @@ color: #3c1218;
 
 
 
-/* MENTIONS LEGALES */
+/* MENTIONS LEGALES : LA PAGE DES MENTIONS LEGALES */
 
 .mentions_legales
 {
@@ -661,7 +700,8 @@ color: #3c1218;
 
 
 
-/* PROCHAINEMENT */
+/* PROCHAINEMENT : LA PAGE PROCHAINEMENT */
+
 /* titre */
 .prochainement_h1
 {
