@@ -78,7 +78,13 @@ header
     text-align: center;
 }
 
-header a
+.a_header
+{
+    text-decoration: none;
+    color: #fdcb46;
+}
+
+.a_header:visited
 {
     text-decoration: none;
     color: #fdcb46;
@@ -89,6 +95,10 @@ header h1
     letter-spacing: -4px;
 }
 
+header h1:hover
+{
+    letter-spacing: 2px;
+}
 
 /* FOOTER */
 footer
@@ -103,6 +113,7 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     
 }
 
@@ -123,7 +134,7 @@ footer p
 {
     background-color: #579c87;
     border-radius: 10px 10px 10px 10px;
-    width: 20%;
+    width: 25%;
     margin: auto;
     text-align: center;
     padding-top: 0.5%;
@@ -139,6 +150,11 @@ footer p
  color: #fdcb46;
 }
 
+.btn a:hover
+{
+    letter-spacing: 2px;
+}
+
 
 /* MAIN */
 main
@@ -150,54 +166,50 @@ main
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+}
+
+.conteneur a
+{
+    width: 25%;
+    height: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 .menu
 {   
-    display: block;
-    width: 25%;
+    min-height: 600px;
+    width: 100%;
     box-shadow: 0px 1px 8px 1px #d8d8d8;
+    transform: scale(0.8);
 }
 
 .menu:hover
 {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .menu--orange
 {
     background-color: #fcdfdb ;
-    min-height: 500px;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    margin-top: 2%;
 }
 
 .menu--pink
 {
     background-color: #fff5fe ;
-    min-height: 500px;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    margin-top: 2%;
 }
 
 .menu--gray
 {
     background-color: #f9f9f9 ;
-    min-height: 500px;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    margin-top: 2%;
 }
 
 .menu--white
 {
     background-color: #fdfffd ;
-    min-height: 500px;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    margin-top: 2%;
 }
 
 /* MENU--ORANGE, MENU--PINK, MENU--GRAY, MENU--WHITE INDEX (position et décoration liens) */
@@ -206,15 +218,7 @@ main
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
-}
-
-
-.menu--orange a, .menu--pink a, .menu--gray a, .menu--white a
-{
-    text-decoration: none;
-   
 }
 
 
@@ -235,8 +239,7 @@ main
 display: flex;
 flex-direction: column;
 color: #3c1218;
-    font-family: 'black_jackregular';
-    font-size: 1.6em;
+font-family: 'black_jackregular';
 }
 
 .menu--orange h3
@@ -258,7 +261,6 @@ color: #3c1218;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
         font-family: 'redressedregular';
-        font-size: 1.7em;
 }
 
 .menu--pink h3
@@ -275,7 +277,6 @@ color: #3c1218;
 .menu--gray h2
 {
    font-family: 'dancing_script_otregular';
-    font-size: 1.8em;
       background: -webkit-gradient(linear, left top, left bottom, from(#0431df), to(#349efc));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -293,7 +294,6 @@ color: #3c1218;
 .menu--white h2 
 {
     font-family: 'courgetteregular';
-    font-size: 1.8em;
       background: -webkit-gradient(linear, left top, left bottom, from(#3d9339), to(#bfff7e));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -309,32 +309,37 @@ color: #3c1218;
 
 
 
+/* LES MENUS */
 
+.menu_fond
+{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+}
 
 
 
 
 /* MENU-1 : LA PAGE DU MENU */
 
-.note_enchantee_menu
+.menu_fond--note_enchantee
 {
-    width: 80%;
+    
     background-color: #fcdfdb ;
     color: #3c1218;
-    margin: auto;
     font-family: 'handleeregular';
     font-style: italic;
     font-size: 1.1em;
-    box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
 /* images */
-.note_enchantee_menu img
+.menu_fond--note_enchantee img
 {
-    transform: scale(0.8);
+    width: 30%;
 }
         /* titre */
-.note_enchantee_menu h2
+.menu_fond--note_enchantee h2
 {
     display: flex;
     flex-direction: column;
@@ -346,7 +351,7 @@ color: #3c1218;
     padding-bottom: 10%;
 }
 
-.note_enchantee_menu i
+.menu_fond--note_enchantee i
 {
   background: -webkit-gradient(linear, left top, left bottom, from(#f15861), to(#f78f6a));
     -webkit-background-clip: text;
@@ -355,14 +360,14 @@ color: #3c1218;
 }
 
         /* sous-titre */
-.note_enchantee_menu h3
+.menu_fond--note_enchantee h3
 {
     font-weight: bold;
     text-align: center;
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 6%;
     padding-left: 6%;
 }
@@ -370,7 +375,7 @@ color: #3c1218;
 
         /* ul, li, p */
 
-.note_enchantee_menu ul
+.menu_fond--note_enchantee ul
 {
     list-style-type: none;
     margin: 0px;
@@ -378,7 +383,7 @@ color: #3c1218;
     padding-bottom: 10%;
 }
 
-.note_enchantee_menu li
+.menu_fond--note_enchantee li
 {
     display: flex;
     flex-direction: row;
@@ -389,14 +394,14 @@ color: #3c1218;
     
 }
 
-.note_enchantee_menu li p:nth-child(2)
+.menu_fond--note_enchantee li p:nth-child(2)
 {
     font-weight: bold;
 }
 
         /* titre bas de page */
 
-.note_enchantee_menu h4
+.menu_fond--note_enchantee h4
 {
     font-family: 'black_jackregular';
     font-size: 1.5em;
@@ -405,7 +410,7 @@ color: #3c1218;
     
 }
 
-.note_enchantee_menu h4 i
+.menu_fond--note_enchantee h4 i
 {
  font-size: 1.2em;   
 }
@@ -415,30 +420,27 @@ color: #3c1218;
 
 /* MENU-2 : LA PAGE DU MENU */
 
-.le_chic_a_la_francaise
+.menu_fond--chic_a_la_francaise
 {
     font-family: 'Times New Roman';
-    width: 80%;
-    margin: auto;
      padding-bottom: 5%;
     background-color: #fff5fe ;
-    box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
     /* images */
-.le_chic_a_la_francaise .img1
+.menu_fond--chic_a_la_francaise .img1
 {
-    transform: scale(0.8);
+    width: 25%;
     position: relative;
-    top: 10px;
+    top: 8px;
 }
 
 
-.le_chic_a_la_francaise .img2
+.menu_fond--chic_a_la_francaise .img2
 {
-    transform: scale(0.8);
+     width: 25%;
     position: relative;
-    top:  15px;
+    top:  13px;
 }
 
 
@@ -461,7 +463,7 @@ color: #3c1218;
 
 
     /* titre */
-.le_chic_a_la_francaise h2
+.menu_fond--chic_a_la_francaise h2
 {
     font-family: 'redressedregular';
     font-size: 3em;
@@ -475,13 +477,14 @@ color: #3c1218;
 }
 
     /* sous-titre */
-.le_chic_a_la_francaise h3
+.menu_fond--chic_a_la_francaise h3
 {
     text-align: center;
+    
 }
     /* ul, li, p */
 
-.le_chic_a_la_francaise ul
+.menu_fond--chic_a_la_francaise ul
 {
     list-style-type: none;
     margin: 0px;
@@ -489,7 +492,7 @@ color: #3c1218;
     padding-bottom: 10%;
 }
 
-.le_chic_a_la_francaise li
+.menu_fond--chic_a_la_francaise li
 {
     display: flex;
     flex-direction: row;
@@ -502,30 +505,27 @@ color: #3c1218;
 
 
 /* MENU 3 : LA PAGE DU MENU */
-.le_delice_des_papilles
+.menu_fond--delice_des_papilles
 {
-    width: 80%;
     background-color: #edefef  ;
     color: #000000;
-    margin: auto;
     padding-bottom: 5%;
     font-family: 'handleeregular';
     font-style: italic;
     font-size: 1.1em;
-    box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
 /* images */
-.le_delice_des_papilles img
+.menu_fond--delice_des_papilles img
 {
-    transform: scale(0.8);
+    width: 30%;;
     position: relative;
-    top: 10px;
+    top: -10px;
 }
 
 
 /* ul, li */
-.le_delice_des_papilles ul
+.menu_fond--delice_des_papilles ul
 {
     list-style-type: none;
     margin: 0px;
@@ -533,7 +533,7 @@ color: #3c1218;
     padding-bottom: 10%;
 }
 
-.le_delice_des_papilles li
+.menu_fond--delice_des_papilles li
 {
     display: flex;
     flex-direction: row;
@@ -544,22 +544,25 @@ color: #3c1218;
     
 }
 
-.le_delice_des_papilles li p:nth-child(2)
+.menu_fond--delice_des_papilles li p:nth-child(2)
 {
     font-weight: bold;
 }
 
 /* sous-titre */
-.le_delice_des_papilles h3
+.menu_fond--delice_des_papilles h3
 {
    
     text-align: center;
     font-size: 1.2em;
     font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* titre */
-.le_delice_des_papilles h2
+.menu_fond--delice_des_papilles h2
 {
     
     text-align: center;
@@ -575,27 +578,24 @@ color: #3c1218;
 
 
 /* MENU 4 : LA PAGE DU MENU */
-.la_palette_du_gout
+.menu_fond--palette_du_gout
 {
-    width: 80%;
     background-color: #fdfffd  ;
     color: #000000;
-    margin: auto;
     padding-bottom: 5%;
     font-family: 'handleeregular';
     font-style: italic;
     font-size: 1.1em;
-    box-shadow: 0px 1px 8px 1px #d8d8d8;
 }
 
 /* images */
-.la_palette_du_gout img
+.menu_fond--palette_du_gout img
 {
-    transform: scale(0.8);
+    width: 30%;
 }
 
 /* ul, li */
-.la_palette_du_gout ul
+.menu_fond--palette_du_gout ul
 {
     list-style-type: none;
     margin: 0px;
@@ -603,7 +603,7 @@ color: #3c1218;
     padding-bottom: 10%;
 }
 
-.la_palette_du_gout li
+.menu_fond--palette_du_gout li
 {
     display: flex;
     flex-direction: row;
@@ -616,18 +616,18 @@ color: #3c1218;
 
 
 /* sous-titre */
-.la_palette_du_gout h3
+.menu_fond--palette_du_gout h3
 {
     text-align: center;
     font-weight: normal;
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* titre */
-.la_palette_du_gout h2
+.menu_fond--palette_du_gout h2
 {
     
     text-align: center;
@@ -740,3 +740,75 @@ color: #3c1218;
 
 
 /* LE RESPONSIVE DU SITE */
+
+/* SMARTPHONES */
+@media all and (max-width: 650px)
+{
+    
+    /* les menus, index */
+    main
+{
+    margin-top: 10%;
+}
+.conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu
+{   
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+    min-height: 250px;
+        max-height: 250px;
+}
+
+.menu:hover
+{
+    transform: none;
+}
+    
+.menu--pink a, .menu--gray a, .menu--white a
+    {
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    
+    /* bouton prochainement, index */
+    
+.btn
+{
+    background-color: #579c87;
+    border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    box-shadow: 0;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+    
+    /* les pages de menus */
+
+
+}
+
+/* TABLETTE EN FORMAT PORTRAIT */
+@media all and (min-width: 650px) and (max-width: 766px)
+{
+    
+}
+
+/* TABLETTE EN FORMAT PAYSAGE */
+@media all and (min-width: 766px) and (max-width: 1280px)
+{
+    
+}
