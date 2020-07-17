@@ -112,9 +112,9 @@ footer
     margin-top: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
+    position: fixed;
+    bottom: 0px;
 }
 
 footer a
@@ -160,6 +160,7 @@ footer p
 main
 {
     margin-top: 2%;
+    margin-bottom: 10%;
 }
 .conteneur
 {
@@ -746,6 +747,11 @@ font-family: 'black_jackregular';
 @media all and (max-width: 650px)
 {
 
+    main
+    {
+        margin-bottom: 20%;
+    }
+    
 .menu_fond
     {
         margin-bottom: 10%;
@@ -770,6 +776,7 @@ font-family: 'black_jackregular';
     {
         min-height: 300px;
         margin: auto;
+    
     }
 
 .menu:hover
@@ -783,6 +790,7 @@ font-family: 'black_jackregular';
         width: 75%;
         margin: auto;
         padding: 0px;
+        margin-top: 5%;
     }
     
 /* titres index */
@@ -842,7 +850,6 @@ font-family: 'black_jackregular';
     transform: scale(1);
 }
 
-}
 
 .btn a:hover
 {
@@ -857,14 +864,21 @@ header h1:hover
 
 
 
+}
+
+
 
 
 
 
 
 /* TABLETTE EN FORMAT PORTRAIT */
-@media all and (min-width: 650px) and (max-width: 766px)
+@media all and (min-width: 650px) and (max-width: 900px)
 {
+    main
+    {
+        margin-bottom: 18%;
+    }
     .menu_fond
     {
         margin-bottom: 10%;
@@ -902,6 +916,7 @@ header h1:hover
         width: 75%;
         margin: auto;
         padding: 0px;
+        margin-top: 5%;
     }
     
 /* titres index */
@@ -978,6 +993,146 @@ header h1:hover
     transform: scale(1);
 }
 
+.btn a:hover
+{
+    letter-spacing: 0px;
+}
+
+
+header h1:hover
+{
+    letter-spacing: -4px;
+}    
+    
+/* footer */
+    
+
+
+}
+
+/* RESPONSIVE TABLETTE FORMAT PAYSAGE */
+@media all and (min-width: 900px) and (max-width: 1280px)
+{
+     main
+    {
+        margin-bottom: 9%;
+    }
+    .menu_fond
+    {
+        margin-bottom: 12%;
+        margin-top: 8%;
+    }
+    
+.conteneur
+    {
+        flex-direction: row;
+        padding: 0px;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 6%;
+    }
+
+.conteneur a
+    {
+        width: 40%;
+        height: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+.menu
+    {
+        min-height: 300px;
+        margin: auto;
+    }
+
+
+.menu:hover
+    {
+        transform: scale(0.8);
+    }
+
+/* prochainement */
+.btn
+    {
+        width: 75%;
+        margin: auto;
+        padding: 0px;
+        margin-top: 5%;
+    }
+    
+/* titres index */
+    
+.menu menu--gray h2
+    {
+        font-size: 2em;
+    }
+
+.menu--orange h3
+    {
+        margin-top: 0px;
+    }
+
+.menu_fond--delice_des_papilles h2
+    {
+        font-size: 2.5em;
+    }
+    
+.menu_fond--palette_du_gout h2
+    {
+        font-size: 2.5em;
+    }
+
+/* séparateurs */
+    .menu_fond--chic_a_la_francaise .img1
+    {
+        position: relative;
+        top: 2px;
+    }
+
+    .menu_fond--chic_a_la_francaise .img2
+    {
+        position: relative;
+        top: 4px;
+    }
+    
+    .menu_fond--delice_des_papilles img
+    {
+        position: relative;
+        top: -3px;
+    }
+    
+    .menu_fond--palette_du_gout img
+    {
+        transform: scale(0.7);
+    }
+/* ul, li */
+
+.menu_fond li p
+    {
+        padding-right: 5%;
+    }
+    
+/* prochainement */
+    .menu_prochainement
+{
+    width: 80%;
+    margin: auto;
+    background-color: #579c87;;
+    color: #fdcb46;
+    font-family: arial, verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0px 1px 8px 1px #d8d8d8;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+    /* HOVER */
+
+.menu_prochainement:hover
+{
+    transform: scale(1);
 }
 
 .btn a:hover
@@ -989,14 +1144,5 @@ header h1:hover
 header h1:hover
 {
     letter-spacing: -4px;
-}
-
-}
-
-/* TABLETTE EN FORMAT PAYSAGE */
-@media all and (min-width: 766px) and (max-width: 1280px)
-{
-
-
-
+}    
 }
