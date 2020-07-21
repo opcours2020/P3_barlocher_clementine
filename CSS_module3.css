@@ -47,61 +47,150 @@
 }
 
 /* wiggle */
-@keyframes wiggle { 
- 
-    0% { transform: rotate(0deg); } 
- 
-    80% { transform: rotate(0deg); } 
- 
-    85% { transform: rotate(5deg); } 
- 
-    95% { transform: rotate(-5deg); } 
- 
-    100% { transform: rotate(0deg); } 
- 
-}
- 
-@keyframes wiggle2 {
-    
-    0% {transform:  translateY(0px);}
-    20% {transform: translateY(-10px)}
-    30% {transform: translateY(-10px)}
-    80% {transform:  translateY(0px);} 
- 
-    85% {transform:  translateY(0px);} 
- 
-    95% {transform:  translateY(0px);} 
- 
-    100% {transform:  translateY(0px);} 
-    
+@keyframes wiggle
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+
+	80%
+	{
+		transform: rotate(0deg);
+	}
+
+	85%
+	{
+		transform: rotate(5deg);
+	}
+
+	95%
+	{
+		transform: rotate(-5deg);
+	}
+
+	100%
+	{
+		transform: rotate(0deg);
+	}
+
 }
 
-@keyframes wiggle3 {
-    
-    0% {transform:  translateY(0px);}
-    40% {transform:  translateY(-10px);}
-    50% {transform:  translateY(-10px);}
-    80% {transform:  translateY(0px);} 
-    85% {transform:  translateY(0px);} 
- 
-    95% {transform:  translateY(0px);} 
- 
-    100% {transform:  translateY(0px);} 
-    
+@keyframes wiggle2
+{
+	0%
+	{
+		transform:  translateY(0px);
+	}
+
+	20%
+	{
+	transform: translateY(-10px)}
+
+	30%
+	{
+	transform: translateY(-10px)}
+
+	80%
+	{
+		transform:  translateY(0px);
+	}
+
+	85%
+	{
+		transform:  translateY(0px);
+	}
+
+	95%
+	{
+		transform:  translateY(0px);
+	}
+
+	100%
+	{
+		transform:  translateY(0px);
+	}
 }
 
-@keyframes wiggle4 {
-    
-    0% {transform:  translateY(0px);}
-    80% {transform:  translateY(0px);} 
-    60% {transform:  translateY(-10px);}
-    70% {transform:  translateY(-10px);}
-    85% {transform:  translateY(0px);} 
-    90% {transform:  translateY(0px);}
-    95% {transform:  translateY(0px);} 
- 
-    100% {transform:  translateY(0px);} 
-    
+@keyframes wiggle3
+{
+	0%
+	{
+		transform:  translateY(0px);
+	}
+
+	40%
+	{
+		transform:  translateY(-10px);
+	}
+
+	50%
+	{
+		transform:  translateY(-10px);
+	}
+
+	80%
+	{
+		transform:  translateY(0px);
+	}
+
+	85%
+	{
+		transform:  translateY(0px);
+	}
+
+	95%
+	{
+		transform:  translateY(0px);
+	}
+
+	100%
+	{
+		transform:  translateY(0px);
+	}
+}
+
+@keyframes wiggle4
+{
+	0%
+	{
+		transform:  translateY(0px);
+	}
+
+	80%
+	{
+		transform:  translateY(0px);
+	}
+
+	60%
+	{
+		transform:  translateY(-10px);
+	}
+
+	70%
+	{
+		transform:  translateY(-10px);
+	}
+
+	85%
+	{
+		transform:  translateY(0px);
+	}
+
+	90%
+	{
+		transform:  translateY(0px);
+	}
+
+	95%
+	{
+		transform:  translateY(0px);
+	}
+
+	100%
+	{
+		transform:  translateY(0px);
+	}
 }
 
 /* BODY */
@@ -166,8 +255,8 @@ footer a
 {
 	text-decoration: none;
 	color: #fdcb46;
-    display: inline-block; 
-    animation: wiggle 2.5s infinite; 
+	display: inline-block;
+	animation: wiggle 2.5s infinite;
 }
 
 footer p
@@ -194,26 +283,27 @@ footer p
 .btn a
 {
 	text-decoration: none;
-	color: #fdcb46; 
+	color: #fdcb46;
 }
 
 .pt1
 {
-    display: inline-block;
-    animation: wiggle2  1s infinite;
+	display: inline-block;
+	animation: wiggle2  1s infinite;
 }
 
 .pt2
 {
-   display: inline-block;
-    animation: wiggle3  1s infinite;
+	display: inline-block;
+	animation: wiggle3  1s infinite;
 }
 
 .pt3
 {
-    display: inline-block;
-    animation: wiggle4  1s infinite;
+	display: inline-block;
+	animation: wiggle4  1s infinite;
 }
+
 /* MAIN */
 main
 {
@@ -254,8 +344,8 @@ main
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
-    opacity: 0.5;
-    transition: opacity 1000ms;
+	opacity: 0.5;
+	transition: opacity 1000ms;
 }
 
 .menu--orange
