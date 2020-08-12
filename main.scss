@@ -92,9 +92,9 @@ $shadow-color-menu : #d8d8d8;
     font-style: italic;
     font-size: 1.2em;
 i { @include gradient-menu1-i;}
-h2{color: $color-menu1; font-family: 'black_jackregular'; font-size: 2em;}
+h2{color: $color-menu1; font-family: 'black_jackregular'; font-size: 2.2em;}
 h3{color: $color-menu1; font-size: 1.2em;}
-h4{color: $color-menu1; font-family: 'black_jackregular'; font-size: 1.3em;}
+h4{color: $color-menu1; font-family: 'black_jackregular'; font-size: 1.5em;}
 }
 @mixin font-page-menu2{
     font-family: 'Times New Roman';
@@ -239,7 +239,7 @@ main{
     
     a {text-decoration: none;}
 
-    article
+    section
     {
         @include shadow-menu;
         margin-left: 20px;
@@ -822,7 +822,7 @@ main{
             justify-content: center;
     
     
-        article{
+        section{
             
             margin: auto;
             margin-bottom: 10%;
@@ -865,8 +865,9 @@ main{
 
 .section-menu1{
         font-size: 1em;
-                h2{font-size:1.5em;}
+                h2{font-size: 1.7em;}
                 h3{font-size: 1em;}
+                h4{font-size: 1.2em;}
 }
 
 .section-menu2{
@@ -924,7 +925,7 @@ main{
             justify-content: center;
     
     
-        article{
+        section{
             
             margin: auto;
             margin-bottom: 10%;
@@ -1022,7 +1023,7 @@ h3{font-size: 1.2em;}
             .menu3{h2{font-size:1.2em;}}
             .menu4{h2{font-size:1.2em;}}
     
-        article{
+        section{
             
             margin: auto;
             margin-bottom: 10%;

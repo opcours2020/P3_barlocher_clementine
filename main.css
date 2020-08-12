@@ -381,7 +381,7 @@ main {
   text-decoration: none;
 }
 
-.section-index article {
+.section-index section {
   -webkit-box-shadow: 0px 1px 8px 1px #d8d8d8;
           box-shadow: 0px 1px 8px 1px #d8d8d8;
   margin-left: 20px;
@@ -408,18 +408,18 @@ main {
   font-size: 1.8em;
 }
 
-.section-index article h2, .section-index article h3 {
+.section-index section h2, .section-index section h3 {
   -webkit-transition: all 800ms ease;
   transition: all 800ms ease;
 }
 
-.section-index article:hover h2 {
+.section-index section:hover h2 {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0.5;
 }
 
-.section-index article:hover h3 {
+.section-index section:hover h3 {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0.5;
@@ -659,7 +659,7 @@ main {
 .section-menu1 h2 {
   color: #3c1218;
   font-family: 'black_jackregular';
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .section-menu1 h3 {
@@ -670,7 +670,7 @@ main {
 .section-menu1 h4 {
   color: #3c1218;
   font-family: 'black_jackregular';
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .section-menu1 .border-animation1 {
@@ -1278,7 +1278,7 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  main .section-index article {
+  main .section-index section {
     margin: auto;
     margin-bottom: 10%;
     padding: 0px;
@@ -1286,12 +1286,12 @@ main {
     min-height: 350px;
     font-size: 1.6em;
   }
-  main .section-index article:hover h2 {
+  main .section-index section:hover h2 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
-  main .section-index article:hover h3 {
+  main .section-index section:hover h3 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
@@ -1333,10 +1333,13 @@ main {
     font-size: 1em;
   }
   .section-menu1 h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
   .section-menu1 h3 {
     font-size: 1em;
+  }
+  .section-menu1 h4 {
+    font-size: 1.2em;
   }
   .section-menu2 {
     font-size: 1em;
@@ -1420,19 +1423,19 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  main .section-index article {
+  main .section-index section {
     margin: auto;
     margin-bottom: 10%;
     padding: 0px;
     min-width: 100%;
     min-height: 350px;
   }
-  main .section-index article:hover h2 {
+  main .section-index section:hover h2 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
-  main .section-index article:hover h3 {
+  main .section-index section:hover h3 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
@@ -1561,7 +1564,7 @@ main {
   main .section-index .menu4 h2 {
     font-size: 1.2em;
   }
-  main .section-index article {
+  main .section-index section {
     margin: auto;
     margin-bottom: 10%;
     margin-left: 25px;
@@ -1570,12 +1573,12 @@ main {
     min-width: 40%;
     min-height: 350px;
   }
-  main .section-index article:hover h2 {
+  main .section-index section:hover h2 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
-  main .section-index article:hover h3 {
+  main .section-index section:hover h3 {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
