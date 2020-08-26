@@ -1270,6 +1270,8 @@ main {
     margin: 0px;
     padding-top: 10%;
     padding-bottom: 20%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   main .section-index {
     display: -webkit-box;
@@ -1282,6 +1284,7 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
   }
   main .section-index h2 {
     text-align: center;
@@ -1290,7 +1293,7 @@ main {
     margin: auto;
     margin-bottom: 10%;
     padding: 0px;
-    width: 100px;
+    width: 90%;
     min-height: 350px;
     font-size: 1.6em;
   }
