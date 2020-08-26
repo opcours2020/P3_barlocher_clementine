@@ -824,6 +824,7 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: center;
+            width: 100%;
             h2 {text-align: center;}
     
         section{
@@ -831,7 +832,7 @@ main{
             margin: auto;
             margin-bottom: 10%;
             padding: 0px;
-            width: 100px;
+            width: 100%;
             min-height: 350px;
             font-size: 1.6em;
     
