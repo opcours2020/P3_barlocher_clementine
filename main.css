@@ -1282,7 +1282,6 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100px;
   }
   main .section-index h2 {
     text-align: center;
@@ -1291,6 +1290,7 @@ main {
     margin: auto;
     margin-bottom: 10%;
     padding: 0px;
+    width: 100px;
     min-height: 350px;
     font-size: 1.6em;
   }
