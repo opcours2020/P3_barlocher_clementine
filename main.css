@@ -1294,7 +1294,7 @@ main {
     margin-bottom: 10%;
     padding: 0px;
     width: 90%;
-    min-height: 350px;
+    min-height: 300px;
     font-size: 1.6em;
   }
   main .section-index section:hover h2 {
@@ -1314,8 +1314,14 @@ main {
     padding: 0px;
     margin-top: -10px;
   }
+  main .section-index .menu2 {
+    font-size: 1.5em;
+  }
+  main .section-index .menu3 {
+    font-size: 1.5em;
+  }
   main .section-index .menu4 h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   main .btn {
     width: 80%;
@@ -1608,7 +1614,8 @@ main {
   }
   main .btn {
     width: 50%;
-    margin-top: 3%;
+    margin: auto;
+    margin-top: 9%;
   }
   .section-prochainement article:hover h3 {
     -webkit-transform: scale(1);

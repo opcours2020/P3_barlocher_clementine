@@ -834,7 +834,7 @@ main{
             margin-bottom: 10%;
             padding: 0px;
             width: 90%;
-            min-height: 350px;
+            min-height: 300px;
             font-size: 1.6em;
     
             &:hover h2   {transform: scale(1); opacity: 1;}
@@ -845,9 +845,10 @@ main{
              i{font-size: 1.4em;}
             h3{padding: 0px; margin-top: -10px;}
                 }
-        
+        .menu2{font-size: 1.5em;}
+        .menu3 {font-size: 1.5em;}
         .menu4 {
-            h2{font-size: 1.3em;}
+            h2{font-size: 1.2em;}
         }
     
         }
@@ -1055,7 +1056,8 @@ h3{font-size: 1.2em;}
 
         .btn {
             width: 50%;
-            margin-top: 3%;
+            margin: auto;
+            margin-top: 9%;
         }
     }
 
