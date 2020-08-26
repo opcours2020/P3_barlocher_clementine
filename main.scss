@@ -798,7 +798,6 @@ main{
     {display: none;} 
     
     header{
-        box-sizing: border-box;
         width: 100%; 
         margin: 0px; 
         padding: 0px; 
@@ -825,14 +824,16 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: center;
-    
+            width: 100px;
+
+            h2 {text-align: center;}
     
         section{
             
             margin: auto;
             margin-bottom: 10%;
             padding: 0px;
-            min-width: 80%;
+           
             min-height: 350px;
             font-size: 1.6em;
     
@@ -844,6 +845,7 @@ main{
              i{font-size: 1.4em;}
             h3{padding: 0px; margin-top: -10px;}
                 }
+        
         .menu4 {
             h2{font-size: 1.3em;}
         }
@@ -851,8 +853,9 @@ main{
         }
 
         .btn {
-            width: 50%;
+            width: 80%;
             margin-top: 4%;
+            margin: auto;
         }
     }
     .section-mentions
@@ -869,28 +872,30 @@ main{
 }
 
 .section-menu1{
-        font-size: 1em;
-                h2{font-size: 1.7em;}
-                h3{font-size: 1em;}
+        font-size: 0.9em;
+                h2{font-size: 1.5em;}
+                h3{font-size: 1em; text-decoration: underline;}
                 h4{font-size: 1.2em;}
+                img{display: none;}
 }
 
 .section-menu2{
-    font-size: 1em;
-    h2{font-size:2em;}
-    h3{font-size: 1em;
-    img{position: relative; top: -2%;}}
+    font-size: 0.9em;
+    h2{font-size:1.7em;}
+    h3{font-size: 1em; text-decoration: underline;}
+    img{display: none;}
 }
 .section-menu3{
-    font-size: 1em;
+    font-size: 0.9em;
     h2{font-size:2em;}
-    h3{font-size: 1em;
-    img{width: 20%; position: relative; top: -5%;}}
+    h3{font-size: 1em; text-decoration: underline;}
+    img{display: none;}
 }
 .section-menu4{
-    font-size: 1em;
+    font-size: 0.9em;
     h2{font-size:2em;}
-    h3{font-size: 1em;}
+    h3{font-size: 1em; text-decoration: underline;}
+    img{display:none;}
 }
    
 }

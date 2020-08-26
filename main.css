@@ -290,10 +290,11 @@ header {
   color: #fdcb46;
   font-size: 1.5em;
   margin: 0px;
-  padding: 5px;
-  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100%;
   text-align: center;
 }
 
@@ -325,6 +326,8 @@ footer {
   bottom: 0px;
   margin: 0px;
   padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 footer p {
@@ -1279,12 +1282,15 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100px;
+  }
+  main .section-index h2 {
+    text-align: center;
   }
   main .section-index section {
     margin: auto;
     margin-bottom: 10%;
     padding: 0px;
-    min-width: 200px;
     min-height: 350px;
     font-size: 1.6em;
   }
@@ -1309,8 +1315,9 @@ main {
     font-size: 1.3em;
   }
   main .btn {
-    width: 50%;
+    width: 80%;
     margin-top: 4%;
+    margin: auto;
   }
   .section-mentions {
     font-size: 1em;
@@ -1332,52 +1339,59 @@ main {
     opacity: 1;
   }
   .section-menu1 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .section-menu1 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   .section-menu1 h3 {
     font-size: 1em;
+    text-decoration: underline;
   }
   .section-menu1 h4 {
     font-size: 1.2em;
   }
+  .section-menu1 img {
+    display: none;
+  }
   .section-menu2 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .section-menu2 h2 {
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .section-menu2 h3 {
     font-size: 1em;
+    text-decoration: underline;
   }
-  .section-menu2 h3 img {
-    position: relative;
-    top: -2%;
+  .section-menu2 img {
+    display: none;
   }
   .section-menu3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .section-menu3 h2 {
     font-size: 2em;
   }
   .section-menu3 h3 {
     font-size: 1em;
+    text-decoration: underline;
   }
-  .section-menu3 h3 img {
-    width: 20%;
-    position: relative;
-    top: -5%;
+  .section-menu3 img {
+    display: none;
   }
   .section-menu4 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .section-menu4 h2 {
     font-size: 2em;
   }
   .section-menu4 h3 {
     font-size: 1em;
+    text-decoration: underline;
+  }
+  .section-menu4 img {
+    display: none;
   }
 }
 
