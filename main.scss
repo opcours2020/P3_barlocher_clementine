@@ -55,23 +55,19 @@ $shadow-color-menu : #d8d8d8;
     transition: all 800ms ease;}
 @mixin gradient-menu1-i {
     background: -webkit-linear-gradient(left, #ef475f 30%, #f6916a 60%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
 @mixin gradient-menu2-h2 {
     background: -webkit-linear-gradient(left, #d8852e 0%, #905bfd 100%);
-    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
 @mixin gradient-menu3-h2 {
     background: -webkit-linear-gradient(left, #0431df 0%, #4eabfc 90%); 
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 @mixin gradient-menu4-h2 {
     background: -webkit-linear-gradient(left, #3d9339 15%, #beff7f 90%); 
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -449,7 +445,6 @@ main{
                 margin-bottom: 5%;
                 margin-top: 10%;
                 i{ font-size: 1.8em; background: -webkit-linear-gradient(left, #ef475f 40%, #f89b76 55%);
-                    background-clip: text;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;}
                 }
@@ -505,7 +500,6 @@ main{
     background-color: $background-menu2;
     h2 {text-align: center; margin-top: 15%; margin-bottom: 15%; 
         background: -webkit-linear-gradient(left, #d8852e 15%, #905bfd 90%);
-        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
     h3{
