@@ -467,7 +467,9 @@ main{
                   }
             }
 
-            h4 {margin-top: -5%; margin-bottom: 7%; i{font-size: 1.5em;}}
+            h4 {margin-top: -5%; margin-bottom: 7%; i{font-size: 1.5em; background: -webkit-linear-gradient(left, #ef475f 0%, #f89b76 90%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; }}
 
             ul {
                 list-style-type: none;
